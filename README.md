@@ -1,0 +1,7 @@
+# Identification of subject-specific responses to footwear during running
+
+This repository contains the data used in our preprint ["Identification of subject-specific responses to footwear during running"](https://sportrxiv.org/index.php/server/preprint/view/222).
+
+The file 'GRF_PRO.csv' contains the processed data used for the classifications. The first two columns, SUBJECT_ID and FOOTWEAR_ID, identify the individual subject and the type of footwear used in the trial, respectively. The remaining columns are labeled as GRF ML (medial-lateral), GRF AP (anterior-posterior) and GRF V (vertical), followed by a numeric identifier ranging from 1 to 101. These columns represent the magnitude of the ground reaction forces in the medial-lateral, anterior-posterior and vertical directions, respectively, at different points in time during the stance phase on the force plate.
+
+The file 'GRF_RAW.csv' contains the "raw" data without filtering and weight normalization. The first two columns, SUBJECT_ID and FOOTWEAR_ID, identify the individual subject and the type of footwear used in the trial, respectively. The remaining columns are labeled as GRF ML (medial-lateral), GRF AP (anterior-posterior) and GRF V (vertical), followed by a numeric identifier ranging from 1 to 101. These columns represent the magnitude of the ground reaction forces in the medial-lateral, anterior-posterior and vertical directions, respectively, at different points in time during the stance phase on the force plate.
